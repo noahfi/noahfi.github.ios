@@ -1,0 +1,153 @@
+#contenedor{
+    width:70%;
+    margin: 25px auto;
+    font-family: Georgia, goo;
+    background-color: beige;
+    border-radius: 20px;
+}
+#cabecera{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+
+}
+#logo img{
+padding: 10px;
+}
+#menu{
+align-items: center;
+font-family: Arial, Helvetica, sans-serif;
+}
+#menu li{
+    margin: 35px;
+}
+#menu ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    align-items: center;
+    justify-content: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#menu a{
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+    border-radius:20px;
+    transition: all 300ms ease-in ;
+
+}
+#menu a:hover{
+    background-color: black;
+    color: white;
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    background-color: blanchedalmond;
+    border-radius: 20px;
+    padding: 10px;
+   
+}
+.info{
+display: flex;
+flex-direction: row;
+
+justify-content: center;
+border-radius: 30px;
+margin: 10px;
+padding: 10px;
+
+}
+.info img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    
+}
+.info ul{
+    list-style-type: none;
+
+}
+.text{
+height: 390px;
+background-color: beige;
+text-align: center;
+width: 600px;
+border-top-right-radius: 20px;
+border-bottom-right-radius: 20px;
+font-family: 'Times New Roman', Times, serif;
+}
+.hr{
+    border: 1px solid black;
+    padding: 7px;
+}
+#info-pag-web{
+    height: 50px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+#info-pag-web ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: none;
+    font-size: 10pt;
+
+}
+#info-pag-web li{
+    margin: 0 40px;
+}
+#info-pag-web a{
+    padding: 7px;
+    color: black;
+    text-decoration: none;
+    background-color: bisque;
+    border-radius: 20px;
+    transition: all 300ms ease-in ;
+}
+#info-pag-web a:hover{
+    background-color: black;
+    color: white;
+}
+#pie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#img2{
+    padding: 10px;
+    display: block;
+}
+#img2 p{
+    margin-top: -5px;
+}
+#img3{
+    padding: 20px;
+}
+.text a{
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+    padding: 15px;
+    border-radius: 20px;
+    transition: all 300ms ease-in ;
+}
+.text a:hover{
+    background-color: black;
+    color: white;
+}
+.text p{
+    text-align: center;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 115px;
+    margin-right: 50px;
+    
+    
+}
